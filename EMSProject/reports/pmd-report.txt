@@ -1,0 +1,439 @@
+src/com/cg/ems/controllers/AdminController.java:29:	Each class should declare at least one constructor
+src/com/cg/ems/controllers/AdminController.java:29:	headerCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:32:	fieldCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:35:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:40:	Parameter 'adminService' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:40:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:45:	Avoid variables with short names like m
+src/com/cg/ems/controllers/AdminController.java:45:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:45:	Parameter 'req' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:45:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:47:	Local variable 'session' could be declared final
+src/com/cg/ems/controllers/AdminController.java:49:	Avoid if (x != y) ..; else ..;
+src/com/cg/ems/controllers/AdminController.java:49:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/AdminController.java:51:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/ems/controllers/AdminController.java:58:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:68:	Avoid variables with short names like m
+src/com/cg/ems/controllers/AdminController.java:68:	Found 'UR'-anomaly for variable 'deptBean' (lines '68'-'74').
+src/com/cg/ems/controllers/AdminController.java:68:	Found 'UR'-anomaly for variable 'designBean' (lines '68'-'86').
+src/com/cg/ems/controllers/AdminController.java:68:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:68:	Use explicit scoping instead of the default package private level
+src/com/cg/ems/controllers/AdminController.java:69:	Local variable 'listDept' could be declared final
+src/com/cg/ems/controllers/AdminController.java:70:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:71:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/com/cg/ems/controllers/AdminController.java:71:	Local variable 'mapDept' could be declared final
+src/com/cg/ems/controllers/AdminController.java:73:	Local variable 'deptBean' could be declared final
+src/com/cg/ems/controllers/AdminController.java:80:	Local variable 'listDesig' could be declared final
+src/com/cg/ems/controllers/AdminController.java:81:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:83:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/com/cg/ems/controllers/AdminController.java:83:	Local variable 'mapDesign' could be declared final
+src/com/cg/ems/controllers/AdminController.java:85:	Local variable 'designBean' could be declared final
+src/com/cg/ems/controllers/AdminController.java:91:	Local variable 'maritalStatus' could be declared final
+src/com/cg/ems/controllers/AdminController.java:107:	Avoid reassigning parameters such as 'm'
+src/com/cg/ems/controllers/AdminController.java:107:	Avoid variables with short names like m
+src/com/cg/ems/controllers/AdminController.java:107:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:119:	Avoid reassigning parameters such as 'empBean'
+src/com/cg/ems/controllers/AdminController.java:119:	Avoid reassigning parameters such as 'm'
+src/com/cg/ems/controllers/AdminController.java:119:	Avoid variables with short names like m
+src/com/cg/ems/controllers/AdminController.java:119:	Parameter 'result' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:119:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:123:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/ems/controllers/AdminController.java:126:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:131:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/AdminController.java:132:	Local variable 'password' could be declared final
+src/com/cg/ems/controllers/AdminController.java:133:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/AdminController.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/AdminController.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/AdminController.java:142:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:148:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:148:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:156:	Avoid variables with short names like m
+src/com/cg/ems/controllers/AdminController.java:156:	Parameter 'empId' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:156:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:156:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:159:	Found 'DD'-anomaly for variable 'pageToRedirect' (lines '159'-'178').
+src/com/cg/ems/controllers/AdminController.java:166:	Local variable 'empBean' could be declared final
+src/com/cg/ems/controllers/AdminController.java:167:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:168:	Local variable 'deptId' could be declared final
+src/com/cg/ems/controllers/AdminController.java:168:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/AdminController.java:169:	Local variable 'dept' could be declared final
+src/com/cg/ems/controllers/AdminController.java:170:	Local variable 'desigId' could be declared final
+src/com/cg/ems/controllers/AdminController.java:170:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/AdminController.java:171:	Local variable 'desig' could be declared final
+src/com/cg/ems/controllers/AdminController.java:182:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/cg/ems/controllers/AdminController.java:183:	Local variable 'msg' could be declared final
+src/com/cg/ems/controllers/AdminController.java:195:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:195:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:201:	Avoid variables with short names like m
+src/com/cg/ems/controllers/AdminController.java:201:	Found 'UR'-anomaly for variable 'deptBean' (lines '201'-'216').
+src/com/cg/ems/controllers/AdminController.java:201:	Found 'UR'-anomaly for variable 'designBean' (lines '201'-'229').
+src/com/cg/ems/controllers/AdminController.java:201:	Parameter 'empId' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:201:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:201:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:203:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/cg/ems/controllers/AdminController.java:203:	Found 'DU'-anomaly for variable 'pageToRedirect' (lines '203'-'254').
+src/com/cg/ems/controllers/AdminController.java:203:	Local variable 'pageToRedirect' could be declared final
+src/com/cg/ems/controllers/AdminController.java:205:	Local variable 'empBean' could be declared final
+src/com/cg/ems/controllers/AdminController.java:206:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:211:	Local variable 'listDept' could be declared final
+src/com/cg/ems/controllers/AdminController.java:212:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:213:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/com/cg/ems/controllers/AdminController.java:213:	Local variable 'mapDept' could be declared final
+src/com/cg/ems/controllers/AdminController.java:215:	Local variable 'deptBean' could be declared final
+src/com/cg/ems/controllers/AdminController.java:223:	Local variable 'listDesig' could be declared final
+src/com/cg/ems/controllers/AdminController.java:224:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:226:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/com/cg/ems/controllers/AdminController.java:226:	Local variable 'mapDesign' could be declared final
+src/com/cg/ems/controllers/AdminController.java:228:	Local variable 'designBean' could be declared final
+src/com/cg/ems/controllers/AdminController.java:234:	Local variable 'maritalStatus' could be declared final
+src/com/cg/ems/controllers/AdminController.java:244:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/ems/controllers/AdminController.java:246:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/cg/ems/controllers/AdminController.java:247:	Local variable 'msg' could be declared final
+src/com/cg/ems/controllers/AdminController.java:257:	Avoid reassigning parameters such as 'model'
+src/com/cg/ems/controllers/AdminController.java:257:	Parameter 'empBean' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:257:	Parameter 'result' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:257:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:262:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/ems/controllers/AdminController.java:272:	Avoid variables with short names like m
+src/com/cg/ems/controllers/AdminController.java:272:	Found 'UR'-anomaly for variable 'empBean' (lines '272'-'286').
+src/com/cg/ems/controllers/AdminController.java:272:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:272:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:274:	Local variable 'numOfRows' could be declared final
+src/com/cg/ems/controllers/AdminController.java:276:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:277:	Local variable 'numRows' could be declared final
+src/com/cg/ems/controllers/AdminController.java:278:	Avoid variables with short names like nr
+src/com/cg/ems/controllers/AdminController.java:278:	Local variable 'nr' could be declared final
+src/com/cg/ems/controllers/AdminController.java:280:	Local variable 'empList' could be declared final
+src/com/cg/ems/controllers/AdminController.java:281:	Local variable 'deptList' could be declared final
+src/com/cg/ems/controllers/AdminController.java:282:	Local variable 'designList' could be declared final
+src/com/cg/ems/controllers/AdminController.java:285:	Local variable 'empBean' could be declared final
+src/com/cg/ems/controllers/AdminController.java:286:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:295:	This statement may have some unnecessary parentheses
+src/com/cg/ems/controllers/AdminController.java:295:	Useless parentheses.
+src/com/cg/ems/controllers/AdminController.java:295:	Useless parentheses.
+src/com/cg/ems/controllers/AdminController.java:301:	Avoid variables with short names like m
+src/com/cg/ems/controllers/AdminController.java:301:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:301:	Parameter 'req' is not assigned and could be declared final
+src/com/cg/ems/controllers/AdminController.java:301:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/AdminController.java:303:	System.out.println is used
+src/com/cg/ems/controllers/AdminController.java:304:	Local variable 'session' could be declared final
+src/com/cg/ems/controllers/AdminController.java:306:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/AdminController.java:307:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/HomeController.java:18:	Each class should declare at least one constructor
+src/com/cg/ems/controllers/HomeController.java:18:	headerCommentRequirement Required
+src/com/cg/ems/controllers/HomeController.java:21:	fieldCommentRequirement Required
+src/com/cg/ems/controllers/HomeController.java:24:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/HomeController.java:28:	Parameter 'serviceRef' is not assigned and could be declared final
+src/com/cg/ems/controllers/HomeController.java:28:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/HomeController.java:33:	Avoid variables with short names like m
+src/com/cg/ems/controllers/HomeController.java:33:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/ems/controllers/HomeController.java:33:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/HomeController.java:35:	The String literal "msg" appears 4 times in this file; the first occurrence is on line 35
+src/com/cg/ems/controllers/HomeController.java:41:	Avoid variables with short names like m
+src/com/cg/ems/controllers/HomeController.java:41:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/ems/controllers/HomeController.java:41:	Parameter 'msg' is not assigned and could be declared final
+src/com/cg/ems/controllers/HomeController.java:41:	Parameter 'password' is not assigned and could be declared final
+src/com/cg/ems/controllers/HomeController.java:41:	Parameter 'req' is not assigned and could be declared final
+src/com/cg/ems/controllers/HomeController.java:41:	Parameter 'username' is not assigned and could be declared final
+src/com/cg/ems/controllers/HomeController.java:41:	publicMethodCommentRequirement Required
+src/com/cg/ems/controllers/HomeController.java:43:	System.out.println is used
+src/com/cg/ems/controllers/HomeController.java:44:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/cg/ems/controllers/HomeController.java:44:	Found 'DU'-anomaly for variable 'pageToRedirect' (lines '44'-'84').
+src/com/cg/ems/controllers/HomeController.java:44:	Local variable 'pageToRedirect' could be declared final
+src/com/cg/ems/controllers/HomeController.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/HomeController.java:47:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/HomeController.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/HomeController.java:52:	System.out.println is used
+src/com/cg/ems/controllers/HomeController.java:54:	Local variable 'session' could be declared final
+src/com/cg/ems/controllers/HomeController.java:55:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/HomeController.java:55:	System.out.println is used
+src/com/cg/ems/controllers/HomeController.java:57:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/HomeController.java:57:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/HomeController.java:58:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/controllers/HomeController.java:60:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/ems/controllers/HomeController.java:63:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/cg/ems/controllers/HomeController.java:65:	Avoid if (x != y) ..; else ..;
+src/com/cg/ems/controllers/HomeController.java:65:	Position literals first in String comparisons
+src/com/cg/ems/controllers/HomeController.java:68:	Local variable 'name' could be declared final
+src/com/cg/ems/controllers/HomeController.java:69:	Local variable 'pass' could be declared final
+src/com/cg/ems/dao/CommonDAOImpl.java:14:	Each class should declare at least one constructor
+src/com/cg/ems/dao/CommonDAOImpl.java:14:	headerCommentRequirement Required
+src/com/cg/ems/dao/CommonDAOImpl.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/ems/dao/CommonDAOImpl.java:17:	fieldCommentRequirement Required
+src/com/cg/ems/dao/CommonDAOImpl.java:20:	Avoid reassigning parameters such as 'logBean'
+src/com/cg/ems/dao/CommonDAOImpl.java:20:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/CommonDAOImpl.java:23:	Avoid variables with short names like q
+src/com/cg/ems/dao/CommonDAOImpl.java:23:	Local variable 'q' could be declared final
+src/com/cg/ems/dao/CommonDAOImpl.java:24:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/dao/CommonDAOImpl.java:25:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/dao/CommonDAOImpl.java:26:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/dao/CommonDAOImpl.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/dao/CommonDAOImpl.java:29:	System.out.println is used
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:10:	Avoid unused imports such as 'org.hibernate.Criteria'
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:20:	Each class should declare at least one constructor
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:20:	headerCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:23:	fieldCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:26:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:27:	Avoid variables with short names like q
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:27:	Local variable 'q' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:28:	Local variable 'listDept' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:29:	System.out.println is used
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:34:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:35:	Avoid variables with short names like q
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:35:	Local variable 'q' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:36:	Local variable 'listDesig' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:37:	System.out.println is used
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:42:	Parameter 'empBean' is not assigned and could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:42:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:43:	System.out.println is used
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:47:	System.out.println is used
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:52:	Parameter 'logBean' is not assigned and could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:52:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:63:	Parameter 'empId' is not assigned and could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:63:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:64:	Found 'DD'-anomaly for variable 'empList' (lines '64'-'67').
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:66:	Local variable 'query' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:74:	Parameter 'empBean' is not assigned and could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:74:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:80:	Parameter 'logBean' is not assigned and could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:80:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:85:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:87:	Local variable 'query' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:88:	Local variable 'empList' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:89:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:95:	Parameter 'deptId' is not assigned and could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:95:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:96:	Local variable 'query' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:96:	Potential violation of Law of Demeter (method chain calls)
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:97:	Local variable 'dept' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:97:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:98:	Consider simply returning the value vs storing it in local variable 'dept'
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:102:	Parameter 'desigId' is not assigned and could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:102:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:103:	Local variable 'query' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:104:	Local variable 'desig' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:105:	Consider simply returning the value vs storing it in local variable 'desig'
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:109:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:111:	Local variable 'query' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:112:	Local variable 'numRows' could be declared final
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:112:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/ems/dao/EMSAdminDAOImpl.java:113:	System.out.println is used
+src/com/cg/ems/dao/ICommonDAO.java:5:	headerCommentRequirement Required
+src/com/cg/ems/dao/ICommonDAO.java:7:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:10:	headerCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:12:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:14:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:16:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:18:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:20:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:22:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:24:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:26:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:28:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:30:	publicMethodCommentRequirement Required
+src/com/cg/ems/dao/IEMSAdminDAO.java:32:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/DepartmentBean.java:18:	Each class should declare at least one constructor
+src/com/cg/ems/dtos/DepartmentBean.java:18:	headerCommentRequirement Required
+src/com/cg/ems/dtos/DepartmentBean.java:24:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/ems/dtos/DepartmentBean.java:24:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/DepartmentBean.java:27:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/DepartmentBean.java:29:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/DepartmentBean.java:32:	Parameter 'deptId' is not assigned and could be declared final
+src/com/cg/ems/dtos/DepartmentBean.java:32:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/DepartmentBean.java:35:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/DepartmentBean.java:38:	Parameter 'deptName' is not assigned and could be declared final
+src/com/cg/ems/dtos/DepartmentBean.java:38:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/DepartmentBean.java:42:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/DesignationBean.java:21:	Each class should declare at least one constructor
+src/com/cg/ems/dtos/DesignationBean.java:21:	headerCommentRequirement Required
+src/com/cg/ems/dtos/DesignationBean.java:27:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/ems/dtos/DesignationBean.java:27:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/DesignationBean.java:30:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/DesignationBean.java:33:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/DesignationBean.java:36:	Parameter 'desigId' is not assigned and could be declared final
+src/com/cg/ems/dtos/DesignationBean.java:36:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/DesignationBean.java:39:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/DesignationBean.java:42:	Parameter 'desigName' is not assigned and could be declared final
+src/com/cg/ems/dtos/DesignationBean.java:42:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/DesignationBean.java:46:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:13:	Avoid unused imports such as 'javax.validation.constraints.Digits'
+src/com/cg/ems/dtos/EmployeeBean.java:16:	Avoid unused imports such as 'javax.validation.constraints.Size'
+src/com/cg/ems/dtos/EmployeeBean.java:30:	Each class should declare at least one constructor
+src/com/cg/ems/dtos/EmployeeBean.java:30:	Too many fields
+src/com/cg/ems/dtos/EmployeeBean.java:30:	headerCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:37:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/ems/dtos/EmployeeBean.java:37:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:42:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/ems/dtos/EmployeeBean.java:42:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:47:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/ems/dtos/EmployeeBean.java:47:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:54:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:58:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:61:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:64:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:69:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:74:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:82:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/ems/dtos/EmployeeBean.java:82:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:86:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/ems/dtos/EmployeeBean.java:86:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:91:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/ems/dtos/EmployeeBean.java:91:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:98:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/ems/dtos/EmployeeBean.java:98:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:102:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/ems/dtos/EmployeeBean.java:102:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:105:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:108:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/ems/dtos/EmployeeBean.java:108:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:111:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:114:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:118:	Parameter 'empId' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:118:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:122:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:126:	Parameter 'firstName' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:126:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:130:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:134:	Parameter 'lastName' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:134:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:138:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:142:	Parameter 'dateOfJoining' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:142:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:146:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:150:	Parameter 'dateOfBirth' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:150:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:154:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:158:	Parameter 'deptId' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:158:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:162:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:166:	Parameter 'designationId' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:166:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:170:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:174:	Parameter 'grade' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:174:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:178:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:182:	Parameter 'gender' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:182:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:186:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:190:	Parameter 'salary' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:190:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:194:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:198:	Parameter 'martialStatus' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:198:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:203:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:207:	Parameter 'contactNo' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:207:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:211:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:215:	Parameter 'addressline1' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:215:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:219:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:223:	Parameter 'addressline2' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:223:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:227:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:231:	Parameter 'city' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:231:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:235:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:239:	Parameter 'pincode' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:239:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:243:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:247:	Parameter 'state' is not assigned and could be declared final
+src/com/cg/ems/dtos/EmployeeBean.java:247:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/EmployeeBean.java:252:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:17:	headerCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:23:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/ems/dtos/LoginDetailsBean.java:23:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:26:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:29:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:32:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:35:	fieldCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:37:	Document empty constructor
+src/com/cg/ems/dtos/LoginDetailsBean.java:37:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:41:	Parameter 'loginId' is not assigned and could be declared final
+src/com/cg/ems/dtos/LoginDetailsBean.java:41:	Parameter 'password' is not assigned and could be declared final
+src/com/cg/ems/dtos/LoginDetailsBean.java:41:	Parameter 'userName' is not assigned and could be declared final
+src/com/cg/ems/dtos/LoginDetailsBean.java:41:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:42:	Parameter 'empId' is not assigned and could be declared final
+src/com/cg/ems/dtos/LoginDetailsBean.java:42:	Parameter 'role' is not assigned and could be declared final
+src/com/cg/ems/dtos/LoginDetailsBean.java:51:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:55:	Parameter 'loginId' is not assigned and could be declared final
+src/com/cg/ems/dtos/LoginDetailsBean.java:55:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:59:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:63:	Parameter 'userName' is not assigned and could be declared final
+src/com/cg/ems/dtos/LoginDetailsBean.java:63:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:67:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:71:	Parameter 'password' is not assigned and could be declared final
+src/com/cg/ems/dtos/LoginDetailsBean.java:71:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:75:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:79:	Parameter 'role' is not assigned and could be declared final
+src/com/cg/ems/dtos/LoginDetailsBean.java:79:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:83:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:87:	Parameter 'empId' is not assigned and could be declared final
+src/com/cg/ems/dtos/LoginDetailsBean.java:87:	publicMethodCommentRequirement Required
+src/com/cg/ems/dtos/LoginDetailsBean.java:92:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/CommonServiceImpl.java:10:	Each class should declare at least one constructor
+src/com/cg/ems/service/CommonServiceImpl.java:10:	headerCommentRequirement Required
+src/com/cg/ems/service/CommonServiceImpl.java:13:	fieldCommentRequirement Required
+src/com/cg/ems/service/CommonServiceImpl.java:17:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/CommonServiceImpl.java:23:	Parameter 'daoRef' is not assigned and could be declared final
+src/com/cg/ems/service/CommonServiceImpl.java:23:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/CommonServiceImpl.java:30:	Parameter 'logBean' is not assigned and could be declared final
+src/com/cg/ems/service/CommonServiceImpl.java:30:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:15:	Each class should declare at least one constructor
+src/com/cg/ems/service/EMSAdminServiceImpl.java:15:	The class 'EMSAdminServiceImpl' has a Cyclomatic Complexity of 2 (Highest = 13).
+src/com/cg/ems/service/EMSAdminServiceImpl.java:15:	headerCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:18:	fieldCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:21:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:26:	Parameter 'adminDao' is not assigned and could be declared final
+src/com/cg/ems/service/EMSAdminServiceImpl.java:26:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:32:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:38:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:48:	Parameter 'empBean' is not assigned and could be declared final
+src/com/cg/ems/service/EMSAdminServiceImpl.java:48:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:49:	Local variable 'salary' could be declared final
+src/com/cg/ems/service/EMSAdminServiceImpl.java:50:	Found 'DD'-anomaly for variable 'grade' (lines '50'-'52').
+src/com/cg/ems/service/EMSAdminServiceImpl.java:64:	Parameter 'salary' is not assigned and could be declared final
+src/com/cg/ems/service/EMSAdminServiceImpl.java:64:	The method 'getGrade' has a Cyclomatic Complexity of 13.
+src/com/cg/ems/service/EMSAdminServiceImpl.java:65:	Found 'DD'-anomaly for variable 'grade' (lines '65'-'69').
+src/com/cg/ems/service/EMSAdminServiceImpl.java:65:	Found 'DD'-anomaly for variable 'grade' (lines '65'-'73').
+src/com/cg/ems/service/EMSAdminServiceImpl.java:65:	Found 'DD'-anomaly for variable 'grade' (lines '65'-'77').
+src/com/cg/ems/service/EMSAdminServiceImpl.java:65:	Found 'DD'-anomaly for variable 'grade' (lines '65'-'81').
+src/com/cg/ems/service/EMSAdminServiceImpl.java:65:	Found 'DD'-anomaly for variable 'grade' (lines '65'-'85').
+src/com/cg/ems/service/EMSAdminServiceImpl.java:65:	Found 'DD'-anomaly for variable 'grade' (lines '65'-'89').
+src/com/cg/ems/service/EMSAdminServiceImpl.java:65:	Found 'DD'-anomaly for variable 'grade' (lines '65'-'93').
+src/com/cg/ems/service/EMSAdminServiceImpl.java:101:	Parameter 'logBean' is not assigned and could be declared final
+src/com/cg/ems/service/EMSAdminServiceImpl.java:101:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:107:	Parameter 'empId' is not assigned and could be declared final
+src/com/cg/ems/service/EMSAdminServiceImpl.java:107:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:113:	Parameter 'empBean' is not assigned and could be declared final
+src/com/cg/ems/service/EMSAdminServiceImpl.java:113:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:114:	Local variable 'salary' could be declared final
+src/com/cg/ems/service/EMSAdminServiceImpl.java:115:	Found 'DD'-anomaly for variable 'grade' (lines '115'-'117').
+src/com/cg/ems/service/EMSAdminServiceImpl.java:126:	Parameter 'logBean' is not assigned and could be declared final
+src/com/cg/ems/service/EMSAdminServiceImpl.java:126:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:133:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:139:	Parameter 'deptId' is not assigned and could be declared final
+src/com/cg/ems/service/EMSAdminServiceImpl.java:139:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:145:	Parameter 'desigId' is not assigned and could be declared final
+src/com/cg/ems/service/EMSAdminServiceImpl.java:145:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/EMSAdminServiceImpl.java:151:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/ICommonService.java:5:	headerCommentRequirement Required
+src/com/cg/ems/service/ICommonService.java:7:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:10:	headerCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:12:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:14:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:16:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:18:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:20:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:23:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:25:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:27:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:29:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:31:	publicMethodCommentRequirement Required
+src/com/cg/ems/service/IEMSAdminService.java:33:	publicMethodCommentRequirement Required

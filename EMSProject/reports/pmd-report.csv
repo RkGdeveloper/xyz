@@ -1,0 +1,440 @@
+Problem,Package,File,Priority,Line,Description,Rule set,Rule
+1,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,29,Each class should declare at least one constructor,Controversial,AtLeastOneConstructor
+2,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,29,headerCommentRequirement Required,Comments,CommentRequired
+3,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,32,fieldCommentRequirement Required,Comments,CommentRequired
+4,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,35,publicMethodCommentRequirement Required,Comments,CommentRequired
+5,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,40,Parameter 'adminService' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+6,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,40,publicMethodCommentRequirement Required,Comments,CommentRequired
+7,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,45,Avoid variables with short names like m,Naming,ShortVariable
+8,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,45,Parameter 'm' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+9,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,45,Parameter 'req' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+10,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,45,publicMethodCommentRequirement Required,Comments,CommentRequired
+11,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,47,Local variable 'session' could be declared final,Optimization,LocalVariableCouldBeFinal
+12,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,49,Avoid if (x != y) ..; else ..;,Design,ConfusingTernary
+13,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,49,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+14,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,51,"A method should have only one exit point, and that should be the last statement in the method",Controversial,OnlyOneReturn
+15,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,58,System.out.println is used,Java Logging,SystemPrintln
+16,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,68,Avoid variables with short names like m,Naming,ShortVariable
+17,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,5,68,Found 'UR'-anomaly for variable 'deptBean' (lines '68'-'74').,Controversial,DataflowAnomalyAnalysis
+18,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,5,68,Found 'UR'-anomaly for variable 'designBean' (lines '68'-'86').,Controversial,DataflowAnomalyAnalysis
+19,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,68,Parameter 'm' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+20,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,68,Use explicit scoping instead of the default package private level,Controversial,DefaultPackage
+21,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,69,Local variable 'listDept' could be declared final,Optimization,LocalVariableCouldBeFinal
+22,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,70,System.out.println is used,Java Logging,SystemPrintln
+23,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,71,"If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation",Controversial,UseConcurrentHashMap
+24,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,71,Local variable 'mapDept' could be declared final,Optimization,LocalVariableCouldBeFinal
+25,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,73,Local variable 'deptBean' could be declared final,Optimization,LocalVariableCouldBeFinal
+26,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,80,Local variable 'listDesig' could be declared final,Optimization,LocalVariableCouldBeFinal
+27,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,81,System.out.println is used,Java Logging,SystemPrintln
+28,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,83,"If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation",Controversial,UseConcurrentHashMap
+29,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,83,Local variable 'mapDesign' could be declared final,Optimization,LocalVariableCouldBeFinal
+30,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,85,Local variable 'designBean' could be declared final,Optimization,LocalVariableCouldBeFinal
+31,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,91,Local variable 'maritalStatus' could be declared final,Optimization,LocalVariableCouldBeFinal
+32,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,107,Avoid reassigning parameters such as 'm',Design,AvoidReassigningParameters
+33,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,107,Avoid variables with short names like m,Naming,ShortVariable
+34,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,107,publicMethodCommentRequirement Required,Comments,CommentRequired
+35,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,119,Avoid reassigning parameters such as 'empBean',Design,AvoidReassigningParameters
+36,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,119,Avoid reassigning parameters such as 'm',Design,AvoidReassigningParameters
+37,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,119,Avoid variables with short names like m,Naming,ShortVariable
+38,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,119,Parameter 'result' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+39,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,119,publicMethodCommentRequirement Required,Comments,CommentRequired
+40,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,123,"A method should have only one exit point, and that should be the last statement in the method",Controversial,OnlyOneReturn
+41,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,126,System.out.println is used,Java Logging,SystemPrintln
+42,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,131,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+43,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,132,Local variable 'password' could be declared final,Optimization,LocalVariableCouldBeFinal
+44,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,133,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+45,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,134,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+46,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,135,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+47,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,142,System.out.println is used,Java Logging,SystemPrintln
+48,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,148,Parameter 'model' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+49,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,148,publicMethodCommentRequirement Required,Comments,CommentRequired
+50,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,156,Avoid variables with short names like m,Naming,ShortVariable
+51,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,156,Parameter 'empId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+52,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,156,Parameter 'm' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+53,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,156,publicMethodCommentRequirement Required,Comments,CommentRequired
+54,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,5,159,Found 'DD'-anomaly for variable 'pageToRedirect' (lines '159'-'178').,Controversial,DataflowAnomalyAnalysis
+55,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,166,Local variable 'empBean' could be declared final,Optimization,LocalVariableCouldBeFinal
+56,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,167,System.out.println is used,Java Logging,SystemPrintln
+57,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,168,Local variable 'deptId' could be declared final,Optimization,LocalVariableCouldBeFinal
+58,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,168,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+59,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,169,Local variable 'dept' could be declared final,Optimization,LocalVariableCouldBeFinal
+60,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,170,Local variable 'desigId' could be declared final,Optimization,LocalVariableCouldBeFinal
+61,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,170,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+62,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,171,Local variable 'desig' could be declared final,Optimization,LocalVariableCouldBeFinal
+63,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,182,"Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block",Strict Exceptions,AvoidCatchingGenericException
+64,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,183,Local variable 'msg' could be declared final,Optimization,LocalVariableCouldBeFinal
+65,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,195,Parameter 'model' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+66,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,195,publicMethodCommentRequirement Required,Comments,CommentRequired
+67,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,201,Avoid variables with short names like m,Naming,ShortVariable
+68,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,5,201,Found 'UR'-anomaly for variable 'deptBean' (lines '201'-'216').,Controversial,DataflowAnomalyAnalysis
+69,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,5,201,Found 'UR'-anomaly for variable 'designBean' (lines '201'-'229').,Controversial,DataflowAnomalyAnalysis
+70,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,201,Parameter 'empId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+71,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,201,Parameter 'm' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+72,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,201,publicMethodCommentRequirement Required,Comments,CommentRequired
+73,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,203,Avoid declaring a variable if it is unreferenced before a possible exit point.,Optimization,PrematureDeclaration
+74,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,5,203,Found 'DU'-anomaly for variable 'pageToRedirect' (lines '203'-'254').,Controversial,DataflowAnomalyAnalysis
+75,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,203,Local variable 'pageToRedirect' could be declared final,Optimization,LocalVariableCouldBeFinal
+76,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,205,Local variable 'empBean' could be declared final,Optimization,LocalVariableCouldBeFinal
+77,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,206,System.out.println is used,Java Logging,SystemPrintln
+78,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,211,Local variable 'listDept' could be declared final,Optimization,LocalVariableCouldBeFinal
+79,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,212,System.out.println is used,Java Logging,SystemPrintln
+80,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,213,"If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation",Controversial,UseConcurrentHashMap
+81,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,213,Local variable 'mapDept' could be declared final,Optimization,LocalVariableCouldBeFinal
+82,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,215,Local variable 'deptBean' could be declared final,Optimization,LocalVariableCouldBeFinal
+83,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,223,Local variable 'listDesig' could be declared final,Optimization,LocalVariableCouldBeFinal
+84,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,224,System.out.println is used,Java Logging,SystemPrintln
+85,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,226,"If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation",Controversial,UseConcurrentHashMap
+86,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,226,Local variable 'mapDesign' could be declared final,Optimization,LocalVariableCouldBeFinal
+87,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,228,Local variable 'designBean' could be declared final,Optimization,LocalVariableCouldBeFinal
+88,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,234,Local variable 'maritalStatus' could be declared final,Optimization,LocalVariableCouldBeFinal
+89,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,244,"A method should have only one exit point, and that should be the last statement in the method",Controversial,OnlyOneReturn
+90,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,246,"Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block",Strict Exceptions,AvoidCatchingGenericException
+91,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,247,Local variable 'msg' could be declared final,Optimization,LocalVariableCouldBeFinal
+92,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,257,Avoid reassigning parameters such as 'model',Design,AvoidReassigningParameters
+93,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,257,Parameter 'empBean' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+94,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,257,Parameter 'result' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+95,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,257,publicMethodCommentRequirement Required,Comments,CommentRequired
+96,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,262,"A method should have only one exit point, and that should be the last statement in the method",Controversial,OnlyOneReturn
+97,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,272,Avoid variables with short names like m,Naming,ShortVariable
+98,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,5,272,Found 'UR'-anomaly for variable 'empBean' (lines '272'-'286').,Controversial,DataflowAnomalyAnalysis
+99,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,272,Parameter 'm' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+100,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,272,publicMethodCommentRequirement Required,Comments,CommentRequired
+101,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,274,Local variable 'numOfRows' could be declared final,Optimization,LocalVariableCouldBeFinal
+102,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,276,System.out.println is used,Java Logging,SystemPrintln
+103,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,277,Local variable 'numRows' could be declared final,Optimization,LocalVariableCouldBeFinal
+104,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,278,Avoid variables with short names like nr,Naming,ShortVariable
+105,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,278,Local variable 'nr' could be declared final,Optimization,LocalVariableCouldBeFinal
+106,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,280,Local variable 'empList' could be declared final,Optimization,LocalVariableCouldBeFinal
+107,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,281,Local variable 'deptList' could be declared final,Optimization,LocalVariableCouldBeFinal
+108,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,282,Local variable 'designList' could be declared final,Optimization,LocalVariableCouldBeFinal
+109,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,285,Local variable 'empBean' could be declared final,Optimization,LocalVariableCouldBeFinal
+110,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,286,System.out.println is used,Java Logging,SystemPrintln
+111,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,295,This statement may have some unnecessary parentheses,Controversial,UnnecessaryParentheses
+112,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,4,295,Useless parentheses.,Unnecessary,UselessParentheses
+113,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,4,295,Useless parentheses.,Unnecessary,UselessParentheses
+114,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,301,Avoid variables with short names like m,Naming,ShortVariable
+115,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,301,Parameter 'm' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+116,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,301,Parameter 'req' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+117,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,301,publicMethodCommentRequirement Required,Comments,CommentRequired
+118,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,2,303,System.out.println is used,Java Logging,SystemPrintln
+119,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,304,Local variable 'session' could be declared final,Optimization,LocalVariableCouldBeFinal
+120,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,306,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+121,com.cg.ems.controllers,src/com/cg/ems/controllers/AdminController.java,3,307,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+122,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,18,Each class should declare at least one constructor,Controversial,AtLeastOneConstructor
+123,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,18,headerCommentRequirement Required,Comments,CommentRequired
+124,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,21,fieldCommentRequirement Required,Comments,CommentRequired
+125,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,24,publicMethodCommentRequirement Required,Comments,CommentRequired
+126,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,28,Parameter 'serviceRef' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+127,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,28,publicMethodCommentRequirement Required,Comments,CommentRequired
+128,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,33,Avoid variables with short names like m,Naming,ShortVariable
+129,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,33,Parameter 'm' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+130,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,33,publicMethodCommentRequirement Required,Comments,CommentRequired
+131,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,35,The String literal 'msg' appears 4 times in this file; the first occurrence is on line 35,String and StringBuffer,AvoidDuplicateLiterals
+132,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,41,Avoid variables with short names like m,Naming,ShortVariable
+133,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,41,Parameter 'm' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+134,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,41,Parameter 'msg' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+135,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,41,Parameter 'password' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+136,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,41,Parameter 'req' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+137,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,41,Parameter 'username' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+138,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,41,publicMethodCommentRequirement Required,Comments,CommentRequired
+139,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,2,43,System.out.println is used,Java Logging,SystemPrintln
+140,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,44,Avoid declaring a variable if it is unreferenced before a possible exit point.,Optimization,PrematureDeclaration
+141,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,5,44,Found 'DU'-anomaly for variable 'pageToRedirect' (lines '44'-'84').,Controversial,DataflowAnomalyAnalysis
+142,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,44,Local variable 'pageToRedirect' could be declared final,Optimization,LocalVariableCouldBeFinal
+143,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,46,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+144,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,47,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+145,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,48,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+146,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,2,52,System.out.println is used,Java Logging,SystemPrintln
+147,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,54,Local variable 'session' could be declared final,Optimization,LocalVariableCouldBeFinal
+148,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,55,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+149,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,2,55,System.out.println is used,Java Logging,SystemPrintln
+150,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,57,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+151,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,57,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+152,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,58,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+153,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,60,"A method should have only one exit point, and that should be the last statement in the method",Controversial,OnlyOneReturn
+154,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,63,"Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block",Strict Exceptions,AvoidCatchingGenericException
+155,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,65,Avoid if (x != y) ..; else ..;,Design,ConfusingTernary
+156,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,65,Position literals first in String comparisons,Design,PositionLiteralsFirstInComparisons
+157,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,68,Local variable 'name' could be declared final,Optimization,LocalVariableCouldBeFinal
+158,com.cg.ems.controllers,src/com/cg/ems/controllers/HomeController.java,3,69,Local variable 'pass' could be declared final,Optimization,LocalVariableCouldBeFinal
+159,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,3,14,Each class should declare at least one constructor,Controversial,AtLeastOneConstructor
+160,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,3,14,headerCommentRequirement Required,Comments,CommentRequired
+161,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,3,17,"Found non-transient, non-static member. Please mark as transient or provide accessors.",JavaBeans,BeanMembersShouldSerialize
+162,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,3,17,fieldCommentRequirement Required,Comments,CommentRequired
+163,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,2,20,Avoid reassigning parameters such as 'logBean',Design,AvoidReassigningParameters
+164,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,3,20,publicMethodCommentRequirement Required,Comments,CommentRequired
+165,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,3,23,Avoid variables with short names like q,Naming,ShortVariable
+166,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,3,23,Local variable 'q' could be declared final,Optimization,LocalVariableCouldBeFinal
+167,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,3,24,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+168,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,3,25,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+169,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,3,26,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+170,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,3,28,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+171,com.cg.ems.dao,src/com/cg/ems/dao/CommonDAOImpl.java,2,29,System.out.println is used,Java Logging,SystemPrintln
+172,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,4,10,Avoid unused imports such as 'org.hibernate.Criteria',Import Statements,UnusedImports
+173,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,20,Each class should declare at least one constructor,Controversial,AtLeastOneConstructor
+174,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,20,headerCommentRequirement Required,Comments,CommentRequired
+175,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,23,"Found non-transient, non-static member. Please mark as transient or provide accessors.",JavaBeans,BeanMembersShouldSerialize
+176,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,23,fieldCommentRequirement Required,Comments,CommentRequired
+177,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,26,publicMethodCommentRequirement Required,Comments,CommentRequired
+178,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,27,Avoid variables with short names like q,Naming,ShortVariable
+179,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,27,Local variable 'q' could be declared final,Optimization,LocalVariableCouldBeFinal
+180,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,28,Local variable 'listDept' could be declared final,Optimization,LocalVariableCouldBeFinal
+181,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,28,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+182,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,2,29,System.out.println is used,Java Logging,SystemPrintln
+183,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,34,publicMethodCommentRequirement Required,Comments,CommentRequired
+184,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,35,Avoid variables with short names like q,Naming,ShortVariable
+185,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,35,Local variable 'q' could be declared final,Optimization,LocalVariableCouldBeFinal
+186,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,36,Local variable 'listDesig' could be declared final,Optimization,LocalVariableCouldBeFinal
+187,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,36,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+188,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,2,37,System.out.println is used,Java Logging,SystemPrintln
+189,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,42,Parameter 'empBean' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+190,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,42,publicMethodCommentRequirement Required,Comments,CommentRequired
+191,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,2,43,System.out.println is used,Java Logging,SystemPrintln
+192,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,2,47,System.out.println is used,Java Logging,SystemPrintln
+193,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,52,Parameter 'logBean' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+194,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,52,publicMethodCommentRequirement Required,Comments,CommentRequired
+195,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,63,Parameter 'empId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+196,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,63,publicMethodCommentRequirement Required,Comments,CommentRequired
+197,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,5,64,Found 'DD'-anomaly for variable 'empList' (lines '64'-'67').,Controversial,DataflowAnomalyAnalysis
+198,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,66,Local variable 'query' could be declared final,Optimization,LocalVariableCouldBeFinal
+199,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,66,Potential violation of Law of Demeter (method chain calls),Coupling,LawOfDemeter
+200,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,67,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+201,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,74,Parameter 'empBean' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+202,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,74,publicMethodCommentRequirement Required,Comments,CommentRequired
+203,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,80,Parameter 'logBean' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+204,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,80,publicMethodCommentRequirement Required,Comments,CommentRequired
+205,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,85,publicMethodCommentRequirement Required,Comments,CommentRequired
+206,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,87,Local variable 'query' could be declared final,Optimization,LocalVariableCouldBeFinal
+207,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,88,Local variable 'empList' could be declared final,Optimization,LocalVariableCouldBeFinal
+208,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,89,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+209,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,95,Parameter 'deptId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+210,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,95,publicMethodCommentRequirement Required,Comments,CommentRequired
+211,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,96,Local variable 'query' could be declared final,Optimization,LocalVariableCouldBeFinal
+212,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,96,Potential violation of Law of Demeter (method chain calls),Coupling,LawOfDemeter
+213,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,97,Local variable 'dept' could be declared final,Optimization,LocalVariableCouldBeFinal
+214,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,97,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+215,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,98,Consider simply returning the value vs storing it in local variable 'dept',Design,UnnecessaryLocalBeforeReturn
+216,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,102,Parameter 'desigId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+217,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,102,publicMethodCommentRequirement Required,Comments,CommentRequired
+218,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,103,Local variable 'query' could be declared final,Optimization,LocalVariableCouldBeFinal
+219,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,103,Potential violation of Law of Demeter (method chain calls),Coupling,LawOfDemeter
+220,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,104,Local variable 'desig' could be declared final,Optimization,LocalVariableCouldBeFinal
+221,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,104,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+222,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,105,Consider simply returning the value vs storing it in local variable 'desig',Design,UnnecessaryLocalBeforeReturn
+223,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,109,publicMethodCommentRequirement Required,Comments,CommentRequired
+224,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,111,Local variable 'query' could be declared final,Optimization,LocalVariableCouldBeFinal
+225,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,112,Local variable 'numRows' could be declared final,Optimization,LocalVariableCouldBeFinal
+226,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,3,112,Potential violation of Law of Demeter (object not created locally),Coupling,LawOfDemeter
+227,com.cg.ems.dao,src/com/cg/ems/dao/EMSAdminDAOImpl.java,2,113,System.out.println is used,Java Logging,SystemPrintln
+228,com.cg.ems.dao,src/com/cg/ems/dao/ICommonDAO.java,3,5,headerCommentRequirement Required,Comments,CommentRequired
+229,com.cg.ems.dao,src/com/cg/ems/dao/ICommonDAO.java,3,7,publicMethodCommentRequirement Required,Comments,CommentRequired
+230,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,10,headerCommentRequirement Required,Comments,CommentRequired
+231,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,12,publicMethodCommentRequirement Required,Comments,CommentRequired
+232,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,14,publicMethodCommentRequirement Required,Comments,CommentRequired
+233,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,16,publicMethodCommentRequirement Required,Comments,CommentRequired
+234,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,18,publicMethodCommentRequirement Required,Comments,CommentRequired
+235,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,20,publicMethodCommentRequirement Required,Comments,CommentRequired
+236,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,22,publicMethodCommentRequirement Required,Comments,CommentRequired
+237,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,24,publicMethodCommentRequirement Required,Comments,CommentRequired
+238,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,26,publicMethodCommentRequirement Required,Comments,CommentRequired
+239,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,28,publicMethodCommentRequirement Required,Comments,CommentRequired
+240,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,30,publicMethodCommentRequirement Required,Comments,CommentRequired
+241,com.cg.ems.dao,src/com/cg/ems/dao/IEMSAdminDAO.java,3,32,publicMethodCommentRequirement Required,Comments,CommentRequired
+242,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,18,Each class should declare at least one constructor,Controversial,AtLeastOneConstructor
+243,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,18,headerCommentRequirement Required,Comments,CommentRequired
+244,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,24,"Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.",Design,FieldDeclarationsShouldBeAtStartOfClass
+245,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,24,fieldCommentRequirement Required,Comments,CommentRequired
+246,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,27,fieldCommentRequirement Required,Comments,CommentRequired
+247,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,29,publicMethodCommentRequirement Required,Comments,CommentRequired
+248,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,32,Parameter 'deptId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+249,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,32,publicMethodCommentRequirement Required,Comments,CommentRequired
+250,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,35,publicMethodCommentRequirement Required,Comments,CommentRequired
+251,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,38,Parameter 'deptName' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+252,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,38,publicMethodCommentRequirement Required,Comments,CommentRequired
+253,com.cg.ems.dtos,src/com/cg/ems/dtos/DepartmentBean.java,3,42,publicMethodCommentRequirement Required,Comments,CommentRequired
+254,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,21,Each class should declare at least one constructor,Controversial,AtLeastOneConstructor
+255,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,21,headerCommentRequirement Required,Comments,CommentRequired
+256,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,27,"Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.",Design,FieldDeclarationsShouldBeAtStartOfClass
+257,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,27,fieldCommentRequirement Required,Comments,CommentRequired
+258,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,30,fieldCommentRequirement Required,Comments,CommentRequired
+259,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,33,publicMethodCommentRequirement Required,Comments,CommentRequired
+260,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,36,Parameter 'desigId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+261,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,36,publicMethodCommentRequirement Required,Comments,CommentRequired
+262,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,39,publicMethodCommentRequirement Required,Comments,CommentRequired
+263,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,42,Parameter 'desigName' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+264,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,42,publicMethodCommentRequirement Required,Comments,CommentRequired
+265,com.cg.ems.dtos,src/com/cg/ems/dtos/DesignationBean.java,3,46,publicMethodCommentRequirement Required,Comments,CommentRequired
+266,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,4,13,Avoid unused imports such as 'javax.validation.constraints.Digits',Import Statements,UnusedImports
+267,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,4,16,Avoid unused imports such as 'javax.validation.constraints.Size',Import Statements,UnusedImports
+268,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,30,Each class should declare at least one constructor,Controversial,AtLeastOneConstructor
+269,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,30,Too many fields,Code Size,TooManyFields
+270,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,30,headerCommentRequirement Required,Comments,CommentRequired
+271,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,37,"Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.",Design,FieldDeclarationsShouldBeAtStartOfClass
+272,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,37,fieldCommentRequirement Required,Comments,CommentRequired
+273,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,42,"Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.",Design,FieldDeclarationsShouldBeAtStartOfClass
+274,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,42,fieldCommentRequirement Required,Comments,CommentRequired
+275,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,47,"Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.",Design,FieldDeclarationsShouldBeAtStartOfClass
+276,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,47,fieldCommentRequirement Required,Comments,CommentRequired
+277,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,54,fieldCommentRequirement Required,Comments,CommentRequired
+278,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,58,fieldCommentRequirement Required,Comments,CommentRequired
+279,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,61,fieldCommentRequirement Required,Comments,CommentRequired
+280,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,64,fieldCommentRequirement Required,Comments,CommentRequired
+281,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,69,fieldCommentRequirement Required,Comments,CommentRequired
+282,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,74,fieldCommentRequirement Required,Comments,CommentRequired
+283,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,82,"Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.",Design,FieldDeclarationsShouldBeAtStartOfClass
+284,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,82,fieldCommentRequirement Required,Comments,CommentRequired
+285,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,86,"Found non-transient, non-static member. Please mark as transient or provide accessors.",JavaBeans,BeanMembersShouldSerialize
+286,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,86,fieldCommentRequirement Required,Comments,CommentRequired
+287,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,91,"Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.",Design,FieldDeclarationsShouldBeAtStartOfClass
+288,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,91,fieldCommentRequirement Required,Comments,CommentRequired
+289,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,98,"Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.",Design,FieldDeclarationsShouldBeAtStartOfClass
+290,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,98,fieldCommentRequirement Required,Comments,CommentRequired
+291,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,102,"Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.",Design,FieldDeclarationsShouldBeAtStartOfClass
+292,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,102,fieldCommentRequirement Required,Comments,CommentRequired
+293,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,105,fieldCommentRequirement Required,Comments,CommentRequired
+294,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,108,"Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.",Design,FieldDeclarationsShouldBeAtStartOfClass
+295,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,108,fieldCommentRequirement Required,Comments,CommentRequired
+296,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,111,fieldCommentRequirement Required,Comments,CommentRequired
+297,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,114,publicMethodCommentRequirement Required,Comments,CommentRequired
+298,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,118,Parameter 'empId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+299,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,118,publicMethodCommentRequirement Required,Comments,CommentRequired
+300,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,122,publicMethodCommentRequirement Required,Comments,CommentRequired
+301,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,126,Parameter 'firstName' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+302,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,126,publicMethodCommentRequirement Required,Comments,CommentRequired
+303,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,130,publicMethodCommentRequirement Required,Comments,CommentRequired
+304,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,134,Parameter 'lastName' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+305,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,134,publicMethodCommentRequirement Required,Comments,CommentRequired
+306,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,138,publicMethodCommentRequirement Required,Comments,CommentRequired
+307,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,142,Parameter 'dateOfJoining' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+308,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,142,publicMethodCommentRequirement Required,Comments,CommentRequired
+309,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,146,publicMethodCommentRequirement Required,Comments,CommentRequired
+310,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,150,Parameter 'dateOfBirth' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+311,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,150,publicMethodCommentRequirement Required,Comments,CommentRequired
+312,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,154,publicMethodCommentRequirement Required,Comments,CommentRequired
+313,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,158,Parameter 'deptId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+314,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,158,publicMethodCommentRequirement Required,Comments,CommentRequired
+315,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,162,publicMethodCommentRequirement Required,Comments,CommentRequired
+316,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,166,Parameter 'designationId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+317,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,166,publicMethodCommentRequirement Required,Comments,CommentRequired
+318,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,170,publicMethodCommentRequirement Required,Comments,CommentRequired
+319,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,174,Parameter 'grade' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+320,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,174,publicMethodCommentRequirement Required,Comments,CommentRequired
+321,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,178,publicMethodCommentRequirement Required,Comments,CommentRequired
+322,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,182,Parameter 'gender' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+323,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,182,publicMethodCommentRequirement Required,Comments,CommentRequired
+324,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,186,publicMethodCommentRequirement Required,Comments,CommentRequired
+325,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,190,Parameter 'salary' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+326,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,190,publicMethodCommentRequirement Required,Comments,CommentRequired
+327,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,194,publicMethodCommentRequirement Required,Comments,CommentRequired
+328,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,198,Parameter 'martialStatus' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+329,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,198,publicMethodCommentRequirement Required,Comments,CommentRequired
+330,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,203,publicMethodCommentRequirement Required,Comments,CommentRequired
+331,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,207,Parameter 'contactNo' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+332,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,207,publicMethodCommentRequirement Required,Comments,CommentRequired
+333,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,211,publicMethodCommentRequirement Required,Comments,CommentRequired
+334,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,215,Parameter 'addressline1' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+335,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,215,publicMethodCommentRequirement Required,Comments,CommentRequired
+336,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,219,publicMethodCommentRequirement Required,Comments,CommentRequired
+337,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,223,Parameter 'addressline2' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+338,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,223,publicMethodCommentRequirement Required,Comments,CommentRequired
+339,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,227,publicMethodCommentRequirement Required,Comments,CommentRequired
+340,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,231,Parameter 'city' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+341,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,231,publicMethodCommentRequirement Required,Comments,CommentRequired
+342,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,235,publicMethodCommentRequirement Required,Comments,CommentRequired
+343,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,239,Parameter 'pincode' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+344,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,239,publicMethodCommentRequirement Required,Comments,CommentRequired
+345,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,243,publicMethodCommentRequirement Required,Comments,CommentRequired
+346,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,247,Parameter 'state' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+347,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,247,publicMethodCommentRequirement Required,Comments,CommentRequired
+348,com.cg.ems.dtos,src/com/cg/ems/dtos/EmployeeBean.java,3,252,publicMethodCommentRequirement Required,Comments,CommentRequired
+349,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,17,headerCommentRequirement Required,Comments,CommentRequired
+350,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,23,"Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.",Design,FieldDeclarationsShouldBeAtStartOfClass
+351,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,23,fieldCommentRequirement Required,Comments,CommentRequired
+352,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,26,fieldCommentRequirement Required,Comments,CommentRequired
+353,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,29,fieldCommentRequirement Required,Comments,CommentRequired
+354,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,32,fieldCommentRequirement Required,Comments,CommentRequired
+355,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,35,fieldCommentRequirement Required,Comments,CommentRequired
+356,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,37,Document empty constructor,Design,UncommentedEmptyConstructor
+357,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,37,publicMethodCommentRequirement Required,Comments,CommentRequired
+358,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,41,Parameter 'loginId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+359,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,41,Parameter 'password' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+360,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,41,Parameter 'userName' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+361,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,41,publicMethodCommentRequirement Required,Comments,CommentRequired
+362,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,42,Parameter 'empId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+363,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,42,Parameter 'role' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+364,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,51,publicMethodCommentRequirement Required,Comments,CommentRequired
+365,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,55,Parameter 'loginId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+366,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,55,publicMethodCommentRequirement Required,Comments,CommentRequired
+367,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,59,publicMethodCommentRequirement Required,Comments,CommentRequired
+368,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,63,Parameter 'userName' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+369,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,63,publicMethodCommentRequirement Required,Comments,CommentRequired
+370,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,67,publicMethodCommentRequirement Required,Comments,CommentRequired
+371,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,71,Parameter 'password' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+372,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,71,publicMethodCommentRequirement Required,Comments,CommentRequired
+373,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,75,publicMethodCommentRequirement Required,Comments,CommentRequired
+374,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,79,Parameter 'role' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+375,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,79,publicMethodCommentRequirement Required,Comments,CommentRequired
+376,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,83,publicMethodCommentRequirement Required,Comments,CommentRequired
+377,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,87,Parameter 'empId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+378,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,87,publicMethodCommentRequirement Required,Comments,CommentRequired
+379,com.cg.ems.dtos,src/com/cg/ems/dtos/LoginDetailsBean.java,3,92,publicMethodCommentRequirement Required,Comments,CommentRequired
+380,com.cg.ems.service,src/com/cg/ems/service/CommonServiceImpl.java,3,10,Each class should declare at least one constructor,Controversial,AtLeastOneConstructor
+381,com.cg.ems.service,src/com/cg/ems/service/CommonServiceImpl.java,3,10,headerCommentRequirement Required,Comments,CommentRequired
+382,com.cg.ems.service,src/com/cg/ems/service/CommonServiceImpl.java,3,13,fieldCommentRequirement Required,Comments,CommentRequired
+383,com.cg.ems.service,src/com/cg/ems/service/CommonServiceImpl.java,3,17,publicMethodCommentRequirement Required,Comments,CommentRequired
+384,com.cg.ems.service,src/com/cg/ems/service/CommonServiceImpl.java,3,23,Parameter 'daoRef' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+385,com.cg.ems.service,src/com/cg/ems/service/CommonServiceImpl.java,3,23,publicMethodCommentRequirement Required,Comments,CommentRequired
+386,com.cg.ems.service,src/com/cg/ems/service/CommonServiceImpl.java,3,30,Parameter 'logBean' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+387,com.cg.ems.service,src/com/cg/ems/service/CommonServiceImpl.java,3,30,publicMethodCommentRequirement Required,Comments,CommentRequired
+388,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,15,Each class should declare at least one constructor,Controversial,AtLeastOneConstructor
+389,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,15,The class 'EMSAdminServiceImpl' has a Cyclomatic Complexity of 2 (Highest = 13).,Code Size,CyclomaticComplexity
+390,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,15,headerCommentRequirement Required,Comments,CommentRequired
+391,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,18,fieldCommentRequirement Required,Comments,CommentRequired
+392,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,21,publicMethodCommentRequirement Required,Comments,CommentRequired
+393,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,26,Parameter 'adminDao' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+394,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,26,publicMethodCommentRequirement Required,Comments,CommentRequired
+395,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,32,publicMethodCommentRequirement Required,Comments,CommentRequired
+396,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,38,publicMethodCommentRequirement Required,Comments,CommentRequired
+397,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,48,Parameter 'empBean' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+398,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,48,publicMethodCommentRequirement Required,Comments,CommentRequired
+399,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,49,Local variable 'salary' could be declared final,Optimization,LocalVariableCouldBeFinal
+400,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,5,50,Found 'DD'-anomaly for variable 'grade' (lines '50'-'52').,Controversial,DataflowAnomalyAnalysis
+401,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,64,Parameter 'salary' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+402,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,64,The method 'getGrade' has a Cyclomatic Complexity of 13.,Code Size,CyclomaticComplexity
+403,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,5,65,Found 'DD'-anomaly for variable 'grade' (lines '65'-'69').,Controversial,DataflowAnomalyAnalysis
+404,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,5,65,Found 'DD'-anomaly for variable 'grade' (lines '65'-'73').,Controversial,DataflowAnomalyAnalysis
+405,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,5,65,Found 'DD'-anomaly for variable 'grade' (lines '65'-'77').,Controversial,DataflowAnomalyAnalysis
+406,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,5,65,Found 'DD'-anomaly for variable 'grade' (lines '65'-'81').,Controversial,DataflowAnomalyAnalysis
+407,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,5,65,Found 'DD'-anomaly for variable 'grade' (lines '65'-'85').,Controversial,DataflowAnomalyAnalysis
+408,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,5,65,Found 'DD'-anomaly for variable 'grade' (lines '65'-'89').,Controversial,DataflowAnomalyAnalysis
+409,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,5,65,Found 'DD'-anomaly for variable 'grade' (lines '65'-'93').,Controversial,DataflowAnomalyAnalysis
+410,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,101,Parameter 'logBean' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+411,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,101,publicMethodCommentRequirement Required,Comments,CommentRequired
+412,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,107,Parameter 'empId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+413,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,107,publicMethodCommentRequirement Required,Comments,CommentRequired
+414,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,113,Parameter 'empBean' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+415,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,113,publicMethodCommentRequirement Required,Comments,CommentRequired
+416,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,114,Local variable 'salary' could be declared final,Optimization,LocalVariableCouldBeFinal
+417,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,5,115,Found 'DD'-anomaly for variable 'grade' (lines '115'-'117').,Controversial,DataflowAnomalyAnalysis
+418,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,126,Parameter 'logBean' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+419,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,126,publicMethodCommentRequirement Required,Comments,CommentRequired
+420,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,133,publicMethodCommentRequirement Required,Comments,CommentRequired
+421,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,139,Parameter 'deptId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+422,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,139,publicMethodCommentRequirement Required,Comments,CommentRequired
+423,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,145,Parameter 'desigId' is not assigned and could be declared final,Optimization,MethodArgumentCouldBeFinal
+424,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,145,publicMethodCommentRequirement Required,Comments,CommentRequired
+425,com.cg.ems.service,src/com/cg/ems/service/EMSAdminServiceImpl.java,3,151,publicMethodCommentRequirement Required,Comments,CommentRequired
+426,com.cg.ems.service,src/com/cg/ems/service/ICommonService.java,3,5,headerCommentRequirement Required,Comments,CommentRequired
+427,com.cg.ems.service,src/com/cg/ems/service/ICommonService.java,3,7,publicMethodCommentRequirement Required,Comments,CommentRequired
+428,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,10,headerCommentRequirement Required,Comments,CommentRequired
+429,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,12,publicMethodCommentRequirement Required,Comments,CommentRequired
+430,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,14,publicMethodCommentRequirement Required,Comments,CommentRequired
+431,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,16,publicMethodCommentRequirement Required,Comments,CommentRequired
+432,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,18,publicMethodCommentRequirement Required,Comments,CommentRequired
+433,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,20,publicMethodCommentRequirement Required,Comments,CommentRequired
+434,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,23,publicMethodCommentRequirement Required,Comments,CommentRequired
+435,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,25,publicMethodCommentRequirement Required,Comments,CommentRequired
+436,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,27,publicMethodCommentRequirement Required,Comments,CommentRequired
+437,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,29,publicMethodCommentRequirement Required,Comments,CommentRequired
+438,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,31,publicMethodCommentRequirement Required,Comments,CommentRequired
+439,com.cg.ems.service,src/com/cg/ems/service/IEMSAdminService.java,3,33,publicMethodCommentRequirement Required,Comments,CommentRequired
